@@ -49,15 +49,47 @@ table {
 /*My style*/
 body {
   background-color: #aad4cf;
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: Arial;
 }
 .container {
   background-color: #d4e9e7;
-  width: 1025px;
+  width: 1024px;
   margin: 0 auto;
 }
 #starLayout {    
 	display: block;
 	margin: 0 auto;
-	width: 1025px;
+	width: 1024px;
+}
+#loneStarfish {
+	position: absolute;
+	color:white;
+	font-size: 50px;
+	top: 203px;
+	right: 525px;
+	line-height: 50px;
+}
+nav li {
+	display: inline-block;
+	width: 336.3px; 
+	height: 30px;
+	border-right: 2px solid rgb(150, 136, 136);
+	margin-top: 5px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+a {
+	color: black;
+	text-decoration: none;
+	font-size: 20px;
+}
+h2 {
+	font-weight: bold;
+	font-size: 25px;
+}
+
+#starProfile {
+	display: inline-block;
+	margin: 0 auto;
+	width: 195px;
 }
