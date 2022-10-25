@@ -46,50 +46,114 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+
+
+
+
 /*My style*/
 body {
   background-color: #aad4cf;
-	font-family: Arial;
-}
+	font-family: Arial;}
 .container {
   background-color: #d4e9e7;
   width: 1024px;
-  margin: 0 auto;
-}
+  margin: 0 auto;}
 #starLayout {    
 	display: block;
 	margin: 0 auto;
-	width: 1024px;
-}
+	width: 1024px;}
 #loneStarfish {
 	position: absolute;
 	color:white;
-	font-size: 50px;
-	top: 203px;
-	right: 525px;
-	line-height: 50px;
-}
-nav li {
+	font-size: 56px;
+	word-spacing: 7px;
+	top: 205px;
+	right: 504px;
+	line-height: 50px;}
+nav span {
 	display: inline-block;
 	width: 336.3px; 
 	height: 30px;
 	border-right: 2px solid rgb(150, 136, 136);
 	margin-top: 5px;
 	margin-bottom: 30px;
-	text-align: center;
-}
+	text-align: center;}
 a {
 	color: black;
 	text-decoration: none;
-	font-size: 20px;
-}
+	font-size: 20px;}
 h2 {
-	font-weight: bold;
-	font-size: 25px;
-}
-
+	font-size: 30.5px;
+	padding-left: 12px;
+  padding-bottom: 15px;}
 #starProfile {
 	display: inline-block;
 	margin: 0 auto;
-	width: 195px;
+	width: 216.5px;
+	float: left;
+	padding-right: 18px;
+	padding-left: 12px;
+  padding-bottom: 25px;}
+p {
+	line-height: 1.5;
+	font-size: 14px;
+	word-spacing: 6.9px;
+	padding-left: 12px;
+	padding-right: 12px;}
+dt {
+	font-size: 25px;
+	padding-top: 30px;
+	padding-left: 12px;
+  padding-bottom: 7px;}
+ ul li {
+	font-size: 14px;
+	padding-top: 15px;
+	padding-left: 12px;
+	line-height: 0.15;
+  list-style-image: disc;}
+h3 {
+	font-size: 25px;
+	padding-top: 30px;
+	padding-left: 12px;
+  padding-bottom: 15px;}
+.content-container {
+	border: 2px solid black;
+	padding-top: 30px;
+	padding-left: 12px;
+	padding-bottom: 12px;
+	margin-right: 12px;
+	margin-left: 12px;}
+#name {
+	display: block;
+	margin-top: 5px;
+	margin-bottom: 20px;
+	padding-bottom: 2px;
+	padding-right: 805px;}
+#email {
+	display: block;
+	margin-top: 5px;
+	margin-bottom: 20px;
+	padding-bottom: 2px;
+	padding-right: 805px;}
+#message {
+	display: block;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	padding-bottom: 100px;
+	padding-right: 805px;}
+h4 {
+	font-size: 18px;
+	padding-top: 15px;
+  padding-bottom: 15px;}
+#send {
+	display: block;
+	margin-top: 10px;
+	font-size: 10px;
+	padding: 10px;
+	background-color: #d4e9e7;
 }
+
+footer {
+  content: 50px;
+	}
