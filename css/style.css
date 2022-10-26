@@ -2,7 +2,6 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -46,11 +45,6 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
-
-
-
-
 /*My style*/
 body {
   background-color: #aad4cf;
@@ -79,7 +73,7 @@ nav span {
 	margin-top: 5px;
 	margin-bottom: 30px;
 	text-align: center;}
-nav span:last-child {
+#contact {
 	border: none;}
 a {
 	color: black;
@@ -156,5 +150,6 @@ h5 {
 	background-color: #d4e9e7;}
 footer .container {
 	text-align: right;
+	font-size: 15px;
 	padding: 30px;
   width: 964px;}
