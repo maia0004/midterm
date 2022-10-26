@@ -106,7 +106,7 @@ h3 {
 	font-size: 14px;
 	padding-top: 15px;
 	padding-left: 12px;
-	padding-top: 0;
+	line-height: 0.1;
   list-style: inside;}
 h4 {
 	font-size: 25px;
